@@ -21,10 +21,24 @@ DEEPSEEK_VISION_URL = "https://api.deepseek.com/v1/chat/completions"  # same bas
 CHAT_MODEL = "deepseek-chat"
 VISION_MODEL = "deepseek-vision"
 
-# Fallback responses when API is unavailable
+# Regular fallback responses when API is unavailable
 FALLBACK_COMMENTS = [
     "Main‑character energy ✨", "Love this vibe 😍", "Absolute fire 🔥",
     "Gym goals! 💪", "Chef's kiss 😘", "Instant mood‑boost 💯"
+]
+
+# Event-specific fallback responses (more baity/engaging)
+EVENT_FALLBACK_COMMENTS = [
+    "This is gonna be THE event of the year! 🔥",
+    "Need tickets ASAP! Who's coming with? 🎟️",
+    "I'd literally sell a kidney to be there! 🤩",
+    "Just dropped everything to get tickets! 🎵",
+    "My FOMO is through the roof right now! 😭",
+    "No way I'm missing this! Who has the link? 🎤",
+    "Had goosebumps just reading about this! 💯",
+    "The energy at these shows is UNMATCHED! ⚡",
+    "Stop everything and get tickets NOW! 🚨",
+    "Their last show sold out in 2 min... setting alarms! ⏰"
 ]
 
 # In-memory storage for session-level duplicate prevention
